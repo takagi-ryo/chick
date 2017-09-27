@@ -13,10 +13,4 @@ bot.message(content:/.*うーん.*/) do |event|
   event.respond hiyokoGacha(event.user.name)
 end
 
-# bot.message(content:"test") do |event|
-#   event.respond "#{event.user.name}さんは今#{event.user.game}をプレイしていますね！"
-#   event.respond event.user.server.name
-# end
-
-
 bot.run
